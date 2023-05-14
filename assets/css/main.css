@@ -1,0 +1,157 @@
+
+/* --------------------------------------THÔNG TIN CÔNG TY--------------------------------- */
+
+.container-four{
+    width: 930px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px #999;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-business{
+    padding: 16px 40px;
+}
+
+.business-heading{
+    display: flex;
+    align-items: center;
+    padding: 0 0 16px 0;
+    border-bottom: 1px solid  #f2f3f7; 
+}
+
+.business-heading-name{
+    font-size: 1.8rem;
+}
+
+.business-heading-quantity{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+.business-heading-img{
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+}
+
+.container-business-header2{
+    padding-bottom: 16px;
+}
+
+.business-header2-info{
+    display: flex;
+    padding-bottom: 13px;
+}
+.business-header2-deadline{
+    display: flex;
+    padding: 0 12px 0 0;
+    font-size: 1.2rem;
+}
+
+.business-header2-img{
+    width: 16px;
+    height: 16px;
+    padding-right: 4px;
+}
+
+.business-header2-btn{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.business-header2-btn1:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.business-header2-btn1{
+    width: 160px;
+    height: 47px;
+    box-shadow: 0 1px 5px #999;
+    background-image: linear-gradient(0, #451da0, #dd5649);
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    z-index: 1;
+}
+
+.business-header2-btn2:hover{
+    background-color: #999;
+}
+
+.business-header2-btn2{
+    width: 160px;
+    height: 47px;
+    box-shadow: 0 1px 5px green;
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: green;
+}
+
+.business-header2-btn2-phone{
+    /* background-color: green; */
+    color: green;
+    height: 20px;
+    width: 20px;
+}
+
+.container-business-header3{
+    
+}
+
+.container-business-header3-real{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 1px solid #f2f3f7;
+    border-right: 1px solid #f2f3f7;
+}
+
+.container-business-header3-info{
+    border-right: 1px solid #f2f3f7;
+    
+}
+
+.container-business-header3-info1{
+    font-size: 1.2rem;
+    padding-bottom: 12px;
+    color: var(--text-color);
+}
+
+.container-business-header3-info2{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.container-business-header3-info3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 12px;
+    display: flex;
+}
+
+.container-business-header3-info4{
+    font-size: 1.4rem;
+    padding-bottom: 12px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-business-header3-info1.kkk, .container-business-header3-info1.ooo{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.container-business-header3-info2.lll, .ppp{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
